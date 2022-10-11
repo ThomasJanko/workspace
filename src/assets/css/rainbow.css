@@ -1,0 +1,28 @@
+.bg-rainbow{
+    width: 200px;
+    height: 200px;
+    /* margin: auto; */
+    margin: 20px;
+    text-align: center;
+    border-radius: 50%;
+    animation: changeBg 2s infinite alternate linear;
+}
+
+
+@keyframes changeBg{
+    0%{
+        background: #ee6055;
+    }
+    25%{
+        background: #1b76e5;
+    }
+    50%{
+        background: #751473;
+    }
+    75%{
+        background: #f2e420;
+    }
+    100%{
+        background: #ea0505;
+    }
+}
