@@ -6,67 +6,7 @@
 }
 
 .container{
-    width: 100%;
-    
-    
-}
-
-.wrap_evenly{
-    display: flex;
-    flex-wrap: wrap;
-    height: auto;
-    justify-content: space-evenly;
-    margin: 40px 20px;
-    margin: auto;
-    width: 80%; 
-}
-
-.wrap_between{
-    display: flex;
-    flex-wrap: wrap;
-    height: auto;
-    justify-content: space-between;
-    margin: 40px 20px;
-    margin: auto;
-    width: 80%; 
-}
-
-.wrap_center{
-    display: flex;
-    flex-wrap: wrap;
-    height: auto;
-    justify-content: center;
-    margin: 40px 20px;
-    margin: auto;
-    width: 80%; 
-}
-
-.wrap_around{
-    display: flex;
-    flex-wrap: wrap;
-    height: auto;
-    justify-content: space-around;
-    margin: 40px 20px;
-    margin: auto;
-    width: 80%; 
-}
-.wrap_start{
-    display: flex;
-    flex-wrap: wrap;
-    height: auto;
-    justify-content: start;
-    margin: 40px 20px;
-    margin: auto;
-    width: 80%; 
-}
-.wrap_end{
-    display: flex;
-    flex-wrap: wrap;
-    height: auto;
-    justify-content: end;
-    margin: 40px 20px;
-    margin: auto;
-    width: 80%; 
+    width: 100%;   
 }
 
 

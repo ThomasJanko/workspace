@@ -1,4 +1,5 @@
 import React from 'react';
+import '../assets/css/wrap.scss'
 
 const Wrap = () => {
     return (
