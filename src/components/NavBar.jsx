@@ -3,10 +3,22 @@ import { WavyLink } from 'react-wavy-transitions';
 import '../assets/css/navbar.scss'
 const NavBar = () => {
 
-    
+    const input = document.querySelector('input');
+    const body = document.querySelector('body');
+
+    const toggleDarkMode = () => {
+        body.classList.toggle("dark")
+    }
+
+    input.onchange = toggleDarkMode;
     return (
         
         <nav>
+
+            <label className='switch'>
+                <input type="checkbox"/>
+                <span className="slider"></span>
+            </label>
            
             <WavyLink  to="/home" color="#ff44fd">
                <span>Home</span> 
