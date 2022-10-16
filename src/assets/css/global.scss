@@ -47,12 +47,12 @@ body.dark{
   left: 0.3rem;
   top: 50%;
   transform: translateY(-50%);
-  background: linear-gradient(40deg, red, orange, 70%);
+  background: linear-gradient(0deg, red, orange 70%);
   transition: 0.4s;
 }
 
 input:checked +.slider{
-  background-color: black;
+  background-color: white;
 }
 
 input:checked + .slider::before{

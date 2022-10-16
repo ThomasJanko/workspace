@@ -5,26 +5,26 @@ const Grid = () => {
     return (
         <div className='container'>
             <h1 className='title'> Grid</h1>
-            <div class="grid">
-                <div class="one">Un</div>
-                <div class="two">Deux</div>
-                <div class="three">Trois</div>
-                <div class="four">Quatre</div>
-                <div class="five">Cinq</div>
-                <div class="six">Six</div>
-                <div class="seven">Seven</div>
-                <div class="height">Height</div>
-                <div class="nine">Nine</div>
-                <div class="ten">Ten</div>
-                <div class="eleven">Eleven</div>
-                <div class="twelve">Twelve</div>
-                <div class="thirdteen">Thirdteen</div>
-                <div class="fourteen">Fourteen</div>
-                <div class="fiveteen">Fiveteen</div>
-                <div class="sixteen">Sixteen</div>
-                <div class="seventeen">Seventeen</div>
-                <div class="heighteen">Heighteen</div>
-                <div class="nineteen">Nineteen</div>
+            <div className="grid">
+                <div className="one">Un</div>
+                <div className="two">Deux</div>
+                <div className="three">Trois</div>
+                <div className="four">Quatre</div>
+                <div className="five">Cinq</div>
+                <div className="six">Six</div>
+                <div className="seven">Seven</div>
+                <div className="height">Height</div>
+                <div className="nine">Nine</div>
+                <div className="ten">Ten</div>
+                <div className="eleven">Eleven</div>
+                <div className="twelve">Twelve</div>
+                <div className="thirdteen">Thirdteen</div>
+                <div className="fourteen">Fourteen</div>
+                <div className="fiveteen">Fiveteen</div>
+                <div className="sixteen">Sixteen</div>
+                <div className="seventeen">Seventeen</div>
+                <div className="heighteen">Heighteen</div>
+                <div className="nineteen">Nineteen</div>
             </div>
         </div>
     );
