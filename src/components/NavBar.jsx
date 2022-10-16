@@ -23,7 +23,7 @@ const NavBar = () => {
    
     return (
         <>
-         <span onClick={() => toggleMenu()} style={{width: '30px', height: '30px', paddingTop: '8px', marginTop: '10px', position: 'absolute'}} > 
+         <span onClick={() => toggleMenu()} style={{width: '30px', height: '30px', paddingTop: '8px', marginTop: '10px', marginLeft: '10px', position: 'absolute'}} > 
                 <Burger isClosed={!isClosed} /> 
         </span>
            
