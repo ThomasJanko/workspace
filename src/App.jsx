@@ -1,4 +1,8 @@
 import React, { useEffect, useState } from 'react'
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,11 +19,27 @@ import Main from './Main';
 import './assets/css/global.scss'
 import Wrap from './components/Wrap';
 import Grid from './components/Grid';
+import MaterialUI from './components/MaterialUI';
+
+
+
+
 
 
 
 const App = () => {
+  <>
+  <link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+/>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+/>
+</>
   return (
+    
     <BrowserRouter>
       <WavyContainer/>
       <Routes>
@@ -28,6 +48,7 @@ const App = () => {
           <Route path='/css' element={<CSS/>} />
           <Route path='/wrap' element={<Wrap/>} />
           <Route path='/grid' element={<Grid/>} />
+          <Route path='/materialUI' element={<MaterialUI/>} />
         </Route>
 
       </Routes>
@@ -37,3 +58,4 @@ const App = () => {
 }
 
 export default App;
+

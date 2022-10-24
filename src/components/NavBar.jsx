@@ -60,8 +60,8 @@ const NavBar = () => {
              <span>Grid</span>   
          </WavyLink>
 
-         <WavyLink to="/grid" color="#ee4055">
-             <span>Grid</span>   
+         <WavyLink to="/materialUI" color="#ff0000">
+             <span>MaterialUI</span>   
          </WavyLink>
 
          <WavyLink to="/grid" color="#ee4055">
