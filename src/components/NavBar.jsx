@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { WavyLink } from 'react-wavy-transitions';
 import '../assets/css/navbar.scss'
 import { BurgerSpin as Burger } from 'react-burger-icons';
+import MaterialUISwitch from './Switch';
 
 const NavBar = () => {
 
@@ -36,10 +37,11 @@ const NavBar = () => {
                 <Burger isClosed={!isClosed} /> 
         </div>
 
-            <label className='switch'>
+            <MaterialUISwitch onClick={toggleDarkMode}/>
+            {/* <label className='switch'>
                 <input type="checkbox" onClick={toggleDarkMode}/>
                 <span className="slider"></span>
-            </label>
+            </label> */}
 
             
            
