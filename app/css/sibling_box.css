@@ -3,7 +3,11 @@
     cursor: pointer;
 }
 
-.container:hover > :not(:hover){
+.containe:hover > :not(:hover){
     opacity: 0.4;
     filter: blur(2px);
+}
+
+.test-resize {
+    resize: both;
 }

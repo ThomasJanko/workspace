@@ -1,5 +1,10 @@
 import React from 'react'
 import './sibling_box.css';
+import HoverBlur from '@/components/HoverBlur';
+import FlexGrow from '@/components/FlexGrow';
+import ImageSlider from '@/components/ImageSlider';
+import NthChild from '@/components/NthChild';
+
 
 const CssPage = () => {
   return (
@@ -7,22 +12,30 @@ const CssPage = () => {
         <h1 className='text-center text-3xl text-primary font-bold'>CSS Page</h1>
 
         <div className='mt-10'>
-            <div className='container justify-center flex gap-4 items-center'>
-                {(new Array(6)).fill(0).map((index) => (
-                    <div key={index} className="box w-20 h-20 bg-purple-600 rounded-md"></div>
-                ))}
-            </div>
-            
+           <HoverBlur />
         </div>
+
+        <div className='border-b py-2' />
         
-        <div className='mt-8'>
-            <h2 className=''>FLEX</h2>
-            <div className='border-blue-900 border p-4 rounded-md flex gap-3 justify-center'>
-                {(new Array(6)).fill(0).map((index) => (
-                    <div key={index} className="box w-20 h-20 bg-red-600 rounded-md"></div>
-                ))}
-            </div>
+        <div className='mt-8 justify-center flex flex-col items-center'>
+           <FlexGrow />
         </div>
+
+        <div className='border-b py-2' />
+
+        <div className='mt-8 justify-center flex flex-col items-center'>
+            <ImageSlider />
+        </div>
+
+        <div className='border-b py-2' />
+
+        <div className='mt-6'>
+            <NthChild />
+        </div>
+
+        <div className='border-b py-2' />
+
+        
     </div>
   )
 }
