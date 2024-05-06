@@ -4,6 +4,7 @@ import HoverBlur from '@/components/HoverBlur';
 import FlexGrow from '@/components/FlexGrow';
 import ImageSlider from '@/components/ImageSlider';
 import NthChild from '@/components/NthChild';
+import TextTruncate from '@/components/TextTruncate';
 
 
 const CssPage = () => {
@@ -35,6 +36,11 @@ const CssPage = () => {
 
         <div className='border-b py-2' />
 
+        <div className='mt-6'>
+            <TextTruncate />
+        </div>
+
+        <div className='border-b py-2' />
         
     </div>
   )
