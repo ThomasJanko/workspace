@@ -7,6 +7,7 @@ import NthChild from '@/components/NthChild';
 import TextTruncate from '@/components/TextTruncate';
 import CreditCard from '@/components/CreditCard';
 import PasswordReveal from '@/components/PasswordReveal';
+import HoverIconCard from '@/components/HoverIconCard';
 
 
 const CssPage = () => {
@@ -52,6 +53,12 @@ const CssPage = () => {
         
         <div className='mt-8'>
           <PasswordReveal />
+        </div>
+
+        <div className='border-b py-2' />
+        
+        <div className='mt-8'>
+          <HoverIconCard />
         </div>
         
     </div>
